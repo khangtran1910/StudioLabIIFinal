@@ -1,0 +1,800 @@
+.wrapper {
+    width: 480px;
+    height: auto;
+}
+
+.logo img {
+    width: 150px;
+}
+
+header {
+    background-color: #F1592A;
+}
+
+header img {
+    float: left;
+    margin: 20px;
+}
+
+header h1 {
+    padding-top: 50px;
+    padding-bottom: 0;
+    margin: 0;
+    margin-right: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: right;
+}
+
+nav > ul {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav > ul li {
+    display: inline;
+}
+
+nav > ul li a {
+    display: inline-block;
+    padding: 0.5rem 30.4px;
+    color: #F1592A;
+    background-color: white;
+    text-decoration-line: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+section .about-website {
+    background-color: black;
+}
+
+.about-website h1 {
+    color: #F1592A;
+    padding: 20px;
+    padding-bottom: 15px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.about-website p {
+    color: white;
+    margin: 0;
+    padding: 0 20px 20px 20px; 
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+}
+
+.general-information h1 {
+    color: #F1592A;
+    padding: 20px;
+    padding-bottom: 15px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.general-information p {
+    color: black;
+    margin: 0;
+    padding: 0 20px 20px 20px; 
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+}
+
+.profile-icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.profile-icon h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #F1592A;
+}
+
+.profile-icon img {
+    width: 100px;
+}
+
+.profile-button h2 {
+    padding-left: 8px;
+}
+
+.portfolio-button h2 {
+    padding-left: 3px;
+}
+
+.contact-button h2 {
+    padding-left: 4px;
+}
+
+footer {
+    background-color: #F1592A;
+}
+
+footer h1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+footer h1 a {
+    color: white;
+    text-decoration-line: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+
+footer p {
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+footer a:hover {
+    color: black;
+}
+
+.profile-icon a:hover {
+    opacity: 80%;
+}
+
+.about-me {
+    background-color: black;
+}
+
+.about-me h1 {
+    color: #F1592A;
+    padding: 20px;
+    padding-bottom: 15px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.about-me p {
+    color: white;
+    margin: 0;
+    padding: 0 20px 20px 20px; 
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+}
+
+.about-me img {
+    margin-left: 22px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: #F1592A;
+    border-width: 1px;
+}
+
+.about-kt-design h1 {
+    color: #F1592A;
+    padding: 20px;
+    padding-bottom: 15px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.about-kt-design p {
+    color: black;
+    margin: 0;
+    padding: 0 20px 20px 20px; 
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+}
+
+.about-kt-design img {
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contact h1 {
+    color: #F1592A;
+    padding: 20px;
+    padding-bottom: 15px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.contact img {
+    width: 50px;
+}
+
+.home {
+    display: flex;
+}
+
+.home img {
+    margin: 20px;
+}
+
+.home p {
+    margin: 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.phone {
+    display: flex;
+}
+
+.phone img {
+    margin: 20px;
+}
+
+.phone p {
+    margin: 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.email {
+    display: flex;
+}
+
+.email img {
+    margin: 20px;
+}
+
+.email p {
+    margin: 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.contact {
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: #F1592A;
+    border-width: 2px;
+}
+
+.portfolio h1 {
+    color: #F1592A;
+    padding: 20px 20px 20px 0px;
+    padding-bottom: 15px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.portfolio {
+    padding-left: 20px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: #F1592A;
+    border-width: 2px;
+}
+
+.portfolio h2 {
+    color: #F1592A;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.graphic-design {
+    display: flex;
+}
+
+.photography {
+    display: flex;
+}
+
+.illustration {
+    display: flex;
+}
+
+.portfolio img {
+    padding: 10px;
+    width: 140px;
+}
+
+.portfolio p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.portfolio h2 {
+    padding-left: 0;
+}
+
+.graphic-content {
+    border-bottom-style: solid;
+    border-color: #F1592A;
+    border-width: 2px;
+}
+
+.photography-content {
+    border-bottom-style: solid;
+    border-color: #F1592A;
+    border-width: 2px;
+}
+
+.see-more a {
+    text-decoration-line: none;
+    font-style: italic;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.see-more a:hover {
+    color: #F1592A;
+}
+
+.portfolio a:hover {
+    opacity: 80%;
+}
+
+.graphic-page {
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: #F1592A;
+    border-width: 2px;
+}
+
+.graphic-page h1, h2 {
+    padding-left: 20px;
+}
+
+.graphic-page h1 {
+    color: #F1592A;
+    padding: 20px 20px 20px 20px;
+    padding-bottom: 15px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.graphic-page h2 {
+    color: #F1592A;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.graphic-page p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.graphic-page img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.photo-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    width: 400px;
+}
+
+.photo-page h1 {
+    color: #F1592A;
+    padding: 20px 20px 20px 20px;
+    padding-bottom: 15px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.photo-page p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.photo-page {
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: #F1592A;
+    border-width: 2px;
+}
+
+.photo-page h2 {
+    color: #F1592A;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.illustration-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    width: 400px;
+}
+
+.illustration-page h1 {
+    color: #F1592A;
+    padding: 20px 20px 20px 20px;
+    padding-bottom: 15px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.illustration-page p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.illustration-page {
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: #F1592A;
+    border-width: 2px;
+}
+
+.illustration-page h2 {
+    color: #F1592A;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.logo a:hover {
+    opacity: 80%;
+}
+
+.about-me img {
+    width: 200px;
+}
+
+.about-kt-design img {
+    width: 250px;
+}
+
+@media only screen and (min-width: 640px) {
+    .wrapper {
+        width: 640px;
+    }
+    
+    .logo img {
+        width: 200px;
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    nav > ul li a {
+        padding: 0.7rem 47.1px;
+        font-size: 20px;
+    }
+    
+    .about-website h1 {
+        font-size: 35px;
+    }
+
+    .about-website p {
+        font-size: 20px;
+    }
+
+    .general-information h1 {
+        font-size: 35px;
+    }
+
+    .general-information p {
+        font-size: 20px;
+    }
+
+    .profile-icon h2 {
+        font-size: 20px;
+    }
+
+    .profile-icon img {
+        width: 150px;
+    }
+
+    .profile-button h2 {
+        padding-left: 30px;
+    }
+
+    .portfolio-button h2 {
+        padding-left: 20px;
+    }
+
+    .contact-button h2 {
+        padding-left: 25px;
+        margin-top: 5px;
+    }
+    
+    footer h1 a {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+    
+    .about-me h1 {
+    font-size: 35px;
+    }
+
+    .about-me p {
+        font-size: 20px;
+    }
+
+    .about-me img {
+        width: 280px;
+        margin-left: 24px;
+    }
+
+    .about-kt-design h1 {
+        font-size: 35px;
+    }
+
+    .about-kt-design p {
+        font-size: 20px;
+    }
+
+    .about-kt-design img {
+        width: 300px;
+        margin-left: 170px;
+    }
+    
+    .portfolio h1 {
+        font-size: 35px;
+    }
+    
+    .portfolio h2 {
+        font-size: 23px;
+    }
+
+    .portfolio img {
+        width: 160px;
+    }
+
+    .portfolio p {
+        font-size: 20px;
+    }
+    
+    .portfolio a {
+        font-size: 18px;
+    }
+    
+    .graphic-page h1 {
+        font-size: 35px;
+    }
+
+    .graphic-page h2 {
+        font-size: 25px;
+    }
+
+    .graphic-page p {
+        font-size: 20px;
+    }
+
+    .graphic-page img {
+        width: 500px;
+    }
+    
+    .photo-page h1 {
+        font-size: 35px;
+    }
+
+    .photo-page h2 {
+        font-size: 25px;
+    }
+
+    .photo-page p {
+        font-size: 20px;
+    }
+
+    .photo-page img {
+        width: 500px;
+    }
+    
+    .illustration-page h1 {
+        font-size: 35px;
+    }
+
+    .illustration-page h2 {
+        font-size: 25px;
+    }
+
+    .illustration-page p {
+        font-size: 20px;
+    }
+
+    .illustration-page img {
+        width: 500px;
+    }
+    
+    .contact h1 {
+        font-size: 35px;
+    }
+
+    .contact img {
+        width: 60px;
+    }
+    
+    .contact p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .wrapper {
+        width: 1200px;
+        margin: auto;
+    }
+    
+    .logo img {
+        width: 250px;
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 45px;
+        padding-top: 100px;
+    }
+    
+    nav > ul li a {
+        padding: 1rem 108.9px;
+        font-size: 25px;
+    }
+    
+    .about-website h1 {
+        font-size: 40px;
+    }
+
+    .general-information h1 {
+        font-size: 40px;
+    }
+
+   .profile-icon h2 {
+        font-size: 25px;
+    }
+
+    .profile-icon img {
+        width: 200px;
+    }
+    
+    .profile-button img {
+        padding-left: 120px;
+    }
+    
+    .contact-button img {
+        padding-right: 120px;
+    }
+
+    .profile-button h2 {
+        padding-left: 160px;
+    }
+
+    .portfolio-button h2 {
+        padding-left: 30px;
+    }
+
+    .contact-button h2 {
+        padding-left: 40px;
+    }
+    
+    footer h1 a {
+        font-size: 20px;
+    }
+    
+    .about-me h1 {
+        font-size: 40px;
+    }
+
+    .about-me img {
+        width: 500px;
+        margin-left: 65px;
+    }
+
+    .about-kt-design h1 {
+        font-size: 40px;
+    }
+
+    .about-kt-design img {
+        width: 500px;
+        margin-left: 350px;
+    }
+    
+    .portfolio h1 {
+        font-size: 40px;
+    }
+    
+    .portfolio h2 {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+
+    .portfolio img {
+        width: 180px;
+        padding-left: 200px;
+    }
+    
+    .graphic-page h1 {
+        font-size: 40px;
+    }
+
+    .graphic-page h2 {
+        font-size: 30px;
+    }
+
+    .graphic-page img {
+        width: 600px;
+    }
+    
+    .graphic-page p {
+        padding-bottom: 30px;
+    }
+    
+    .photo-page h1 {
+        font-size: 40px;
+    }
+
+    .photo-page h2 {
+        font-size: 30px;
+    }
+
+    .photo-page img {
+        width: 600px;
+        padding-bottom: 20px;
+    }
+    
+    .illustration-page h1 {
+        font-size: 40px;
+    }
+
+    .illustration-page h2 {
+        font-size: 30px;
+    }
+
+    .illustration-page img {
+        width: 600px;
+        padding-bottom: 20px;
+    }
+    
+    .contact h1 {
+        font-size: 40px;
+    }
+
+    .contact img {
+        width: 60px;
+        padding-left: 100px;
+        padding-bottom: 20px;
+    }
+    
+    .portfolio {
+        padding-bottom: 20px;
+    }
+}
